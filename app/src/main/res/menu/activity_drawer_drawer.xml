@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mainMenu"
+            android:icon="@drawable/icon_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/fragment_drawer"
+            android:icon="@drawable/icon_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/fragment_reservation"
+            android:icon="@drawable/icon_book"
+            android:title="Reservation" />
+        <item
+            android:id="@+id/fragment_summary"
+            android:icon="@drawable/icon_heart"
+            android:title="Summary" />
+        <item
+            android:id="@+id/fragment_renew"
+            android:icon="@drawable/icon_renew"
+            android:title="Renew" />
+        <!--item
+            android:id="@+id/fragment_qrcode_scanner"
+            android:icon="@drawable/icon_qrcode_scan"
+            android:title="QR Code Scanner" -->
+        <item
+            android:id="@+id/fragment_message"
+            android:icon="@drawable/icon_message2"
+            android:title="Message" />
+        <item
+            android:id="@+id/fragment_resetpassword"
+            android:icon="@drawable/icon_reset"
+            android:title="Reset Password" />
+
+    </group>
+
+    <item android:title="Exit">
+        <menu>
+            <item
+                android:id="@+id/fragment_help"
+                android:icon="@drawable/icon_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/icon_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

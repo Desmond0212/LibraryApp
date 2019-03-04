@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--EditText
+                android:id="@+id/editTextTitleRemove"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Title of the Item"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextNameRemove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="By (Name)"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextContributorRemove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Contributor(s)"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextMaterialRemove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Material Type"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextPublisherRemove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Publisher(s)"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextEditionRemove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Edition"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextDescriptionRemove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Description"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextSubjectRemove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Subject(s)"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextCallNumberRemove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Call Number"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextCopyNumberRemove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Copy Number)"
+                android:inputType="textPersonName" -->
+
+            <Button
+                android:id="@+id/btn_RemoveItemAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/btn_AdvancedSearch"
+                android:fontFamily="@font/crete_round"
+                android:text="Delete"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

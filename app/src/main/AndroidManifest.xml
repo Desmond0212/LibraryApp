@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.desmond.libraryapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon2"
+        android:roundIcon="@mipmap/app_icon2_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false">
+        <activity
+            android:name=".startupActivity"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".LoginActivity"
+            android:label="APU Library" />
+        <activity
+            android:name=".RegisterUserActivity"
+            android:label="APU Library" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:label="FORGOT PASSWORD" />
+        <activity
+            android:name=".UsernameInstructionActivity"
+            android:label="USERNAME INSTRUCTION" />
+        <activity
+            android:name=".DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SummaryActivity"
+            android:label="@string/title_activity_summary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RenewActivity"
+            android:label="@string/title_activity_renew"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QRCodeScannerActivity"
+            android:label="@string/title_activity_qrcode_scanner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="@string/title_activity_reset_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MessageActivity"
+            android:label="@string/title_activity_message"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManageActivity"
+            android:label="@string/title_activity_manage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminRegisterActivity"
+            android:label="@string/title_activity_adminRegister" />
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/title_activity_help" />
+        <activity
+            android:name=".AdminMainActivity"
+            android:label="@string/title_activity_adminMain" />
+        <activity
+            android:name=".AdminAddItemActivity"
+            android:label="@string/title_activity_adminAddItem" />
+        <activity
+            android:name=".AdminSearchActivity"
+            android:label="@string/title_activity_adminSearchItem" />
+        <activity
+            android:name=".AdminUpdateItemActivity"
+            android:label="@string/title_activity_adminUpdateItem" />
+        <activity
+            android:name=".AdminRemoveItemActivity"
+            android:label="@string/title_activity_adminRemoveItem" />
+        <activity android:name=".UpdateDialogActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+    </application>
+
+</manifest>

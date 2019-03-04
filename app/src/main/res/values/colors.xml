@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c160c</color>795548
+    <color name="colorPrimaryDark">#2c160c</color>#5D4037
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grayColor">#c2c2c2</color>
+    <color name="bg_login">#757575</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login_bg">#72839c</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logout_bg">#ff6861</color>
+    <color name="btnlogin">#212121</color>
+    <color name="btnforgotpassword">#01579B</color>
+    <color name="btn_linktologin">#b0bec5</color>
+    <color name="btn_usernameinstruction">#0288D1</color>
+    <color name="bg_usernameinstruction">#37474F</color>263238
+    <color name="lbl_usernameinstruction">#212121</color>
+    <color name="bg_forgotpassword">#D7CCC8</color>
+    <color name="darkgray">#6c6c6c</color>
+    <color name="bg_login2">#c44d46</color>
+    <color name="bg_brown">#8d6e63</color>
+    <color name="btn_AdvancedSearch">#162825</color>102719
+
+    <color name="bg_adminMain">#bcaaa4</color>
+    <color name="bg_adminMain2">#330000</color>
+
+    <color name="bg_adminadditem">#EACEC9</color>330000
+    <color name="bg_adminadditem2">#F8EEED</color>3D0000
+    <color name="btn_linktomainadd">#32327B</color>91D2FA
+
+    <color name="login_btn">#50e0e0</color>
+</resources>

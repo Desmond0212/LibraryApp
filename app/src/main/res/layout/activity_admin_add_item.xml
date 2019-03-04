@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_adminadditem2"
+    android:orientation="vertical"
+    tools:context="com.example.desmond.libraryapp.AdminAddItemActivity">
+
+
+    <!--RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/bg_adminadditem"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/iconlinktomainadd"
+            android:layout_width="25dp"
+            android:layout_height="23dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/icon_left_black" />
+
+        <Button
+            android:id="@+id/btnBacktoMainAdd"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:background="@null"
+            android:text="@string/btn_linktomainadmin"
+            android:textColor="@color/btn_linktomainadd"
+            android:textSize="15sp" />
+
+    </RelativeLayout-->
+
+    <!--LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/bg_adminadditem"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView19"
+            android:layout_alignStart="@+id/textView19"
+            android:layout_marginLeft="10dp"
+            android:text="@string/lbl_additemadmin"
+            android:textColor="#826225"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/lbl_additemadmin2"
+            android:textColor="#574119"
+            android:textSize="25sp" />
+
+    </LinearLayout-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/orbitron"
+                android:text="@string/lbl_addtitleadmin"
+                android:textColor="@color/btn_AdvancedSearch"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtTitleAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fill_layout_adminadd"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/orbitron"
+                android:text="@string/lbl_addnameadmin"
+                android:textColor="@color/btn_AdvancedSearch"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtNameAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fill_layout_adminadd"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/orbitron"
+                android:text="@string/lbl_addcontributeadmin"
+                android:textColor="@color/btn_AdvancedSearch"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtContributorAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fill_layout_adminadd"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/orbitron"
+                android:text="@string/lbl_addmaterialtypeadmin"
+                android:textColor="@color/btn_AdvancedSearch"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtmMaterialAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fill_layout_adminadd"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/orbitron"
+                android:text="@string/lbl_addpublisheradmin"
+                android:textColor="@color/btn_AdvancedSearch"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtPublisherAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fill_layout_adminadd"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/orbitron"
+                android:text="@string/lbl_addeditionadmin"
+                android:textColor="@color/btn_AdvancedSearch"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtEditionAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fill_layout_adminadd"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/orbitron"
+                android:text="@string/lbl_adddescriptionadmin"
+                android:textColor="@color/btn_AdvancedSearch"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtDescriptionAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fill_layout_adminadd"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/orbitron"
+                android:text="@string/lbl_addsubject"
+                android:textColor="@color/btn_AdvancedSearch"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtSubjectAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fill_layout_adminadd"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/orbitron"
+                android:text="@string/lbl_addcallnumber"
+                android:textColor="@color/btn_AdvancedSearch"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtCallNumberAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fill_layout_adminadd"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/orbitron"
+                android:text="@string/lbl_addcopynumber"
+                android:textColor="@color/btn_AdvancedSearch"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtCopyNumberAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fill_layout_adminadd"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnSubmitAddItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/crete_round"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimary"
+                android:padding="15dp"
+                android:text="@string/btn_submititemadmin"
+                android:textColor="#E0E0E0"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

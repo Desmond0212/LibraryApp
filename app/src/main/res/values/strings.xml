@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">APU Library</string>
+    <string name="app_name2">Login</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Login failed, please check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="loginButtonMain">LOGIN</string>
+    <string name="prompt_password">Please Enter Your Password</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">ALready registered. Login Me!</string>
+    <string name="title_activity_reset_password">PASSWORD RECOVERY</string>
+    <string name="btn_forgot_password">Forgot password?</string>
+    <string name="btn_reset_password">SEND REQUEST</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot Password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Address to send you password reset instruction. Thank You.</string>
+    <string name="string_image">Forgot password?</string>
+    <string name="lbl_loginbtn">You are not logged in.</string>
+    <string name="btn_loginBtn"><u><b>(Login)</b></u></string>
+    <string name="btn_LoginMe"><u><b>Login to Your Account</b></u></string>
+
+    <string name="lbl_Library">LIBRARY AND INFORMATION RESOURCES</string>
+    <string name="lbl_Library2">NEWS AND ANNOUNCEMENTS</string>
+    <string name="lbl_Library10"><u>Library Website Launching: </u></string>
+    <string name="lbl_Library3">Dear Staff and Students,</string>
+    <string name="lbl_Library4">We will be launching new improved APU/APIIT</string>
+    <string name="lbl_Library5">Library Systems on 30th Jan 2018, the new </string>
+    <string name="lbl_Library6">system is more users friendly, easy to access </string>
+    <string name="lbl_Library7">with single sign-on facility. Library System </string>
+    <string name="lbl_Library8">is design to enhance your experience, with </string>
+    <string name="lbl_Library9">these improved features.</string>
+    <string name="lbl_Library11"><u>Computer Facilities: </u></string>
+    <string name="lbl_Library12">Computers in the library can be used to </string>
+    <string name="lbl_Library13">search Online Public Access Catalogue(OPAC)</string>
+    <string name="lbl_Library14">and access e-resources. Wi-Fi is available</string>
+    <string name="lbl_Library15">throughout the library. Most tables in the</string>
+    <string name="lbl_Library16">library and fitted with charging points. A</string>
+    <string name="lbl_Library17">limited number of laptop locks are also</string>
+    <string name="lbl_Library18">available. Please request at the counter</string>
+    <string name="lbl_Library19">for these locks.</string>
+    <string name="lbl_Library20">Please Note</string>
+    <string name="lbl_Library21">~ The computer facilities in the library are</string>
+    <string name="lbl_Library22">  to be used for academic and research</string>
+    <string name="lbl_Library23">  purposes only.</string>
+    <string name="lbl_Library24">~ Members may use the computer for viewing</string>
+    <string name="lbl_Library25">  of Students Multimedia Projects produced</string>
+    <string name="lbl_Library26">  in CD format.</string>
+    <string name="lbl_Library27">~ Use of computers for sending personal emails</string>
+    <string name="lbl_Library28">  , online chatting or gaming is strictly</string>
+    <string name="lbl_Library29">  prohibited.</string>
+    <string name="lbl_Library30">~ Members are prohibited from installing</string>
+    <string name="lbl_Library31">  application programs into the computers</string>
+    <string name="lbl_Library32">  made available for student use.</string>
+
+    <string name="lbl_signin"><b>SIGN IN TO YOUR ACCOUNT</b></string>
+    <string name="lbl_account">Do not have an account yet?</string>
+    <string name="btn_linktologin">ALready have an account?  Login</string>
+    <string name="btn_register"><u><b>REGISTER</b></u></string>
+    <string name="lbl_linktoregister"><u><b>NEW? CREATE AN ACCOUNT</b></u></string>
+    <string name="lbl_register">Create Your Library Account.</string>
+    <string name="lbl_register2">It is FREE and always will be.</string>
+    <string name="btn_usernameInstru">Username Instruction</string>
+    <string name="lbl_usernameinstruction">ASIA PACIFIC </string>
+    <string name="lbl_usernameinstruction2">INFORMATION EXCHANGE</string>
+    <string name="lbl_usernameinstruction3"><u><b>Username Instruction</b></u></string>
+    <string name="lbl_usernameinstruction4">Students:</string>
+    <string name="lbl_usernameinstruction5">Please use your APU Exchange</string>
+    <string name="lbl_usernameinstruction6">e-mail credentials to create your own</string>
+    <string name="lbl_usernameinstruction7">library account, i.e @apu.edu.my</string>
+    <string name="lbl_usernameinstruction8">Others:</string>
+    <string name="lbl_usernameinstruction9">Please use your personal email </string>
+    <string name="lbl_usernameinstruction10">address to create your library account,</string>
+    <string name="lbl_usernameinstruction11">i.e @gmail, @outlook, @hotmail</string>
+    <string name="auth_login">Welcome to APU Library Catalogue</string>
+    <string name="btn_Okay">OK</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="auth_passwordupdated">Welcome to APU Library Catalogue</string>
+    <string name="lbl_userLoggedIn">You are logged in as </string>
+    <string name="lbl_userLoggedIn2">Email Address </string>
+    <string name="lbl_userLoggedIn3">Welcome to Asia Pacific University Library </string>
+    <string name="txt_Login">LOGIN </string>
+    <string name="txt_Back">BACK </string>
+
+    <string name="lbl_userSummary">YOUR SUMMARY </string>
+    <string name="lbl_userSummary2">Title of the Item:  </string>
+    <string name="lbl_userSummary3">"Book Title"  </string>
+    <string name="lbl_userSummary4">Reservation Time:   </string>
+    <string name="lbl_userSummary5">24 : 00"  </string>
+    <string name="lbl_userSummary6">* Reminder:  </string>
+    <string name="lbl_userSummary7">Please go to the library and collect your item(s) within 2 hours. Thank You!  </string>
+    <string name="btn_cancelReservation"> Cancel Reservation </string>
+    <string name="lbl_userSummary8">* Note:   </string>
+    <string name="lbl_userSummary9">The below item reservation will be automatic cancel within 2 hours, the user has to collect their item at APU library within 2 hours.  </string>
+
+    <string name="lbl_userRenew">RENEW LIBRARY ITEMs</string>
+    <string name="lbl_userRenew2">* Note:   </string>
+    <string name="lbl_userRenew3">APU Library user can renew their library item to extend the due to of the item and to avoid any penalty from APU library.  </string>
+    <string name="lbl_userRenew4">Title of the Item:  </string>
+    <string name="lbl_userRenew5">"Book Title"   </string>
+    <string name="lbl_userRenew6">Return Date:   </string>
+    <string name="lbl_userRenew7">DD / MM / YYYY   </string>
+    <string name="lbl_userRenew8">Fines:   </string>
+    <string name="lbl_userRenew9"> - 0.00 (RM)   </string>
+    <string name="btn_userRenewItem"> Renew   </string>
+
+    <string name="lbl_resetpassword">Reset Your Library Password?</string>
+    <string name="lbl_resetpassword2">In the text fields below, please enter your new password.</string>
+    <string name="txtPasswordRP">New Password</string>
+    <string name="txtConfirmPasswordRP">Confirm Password</string>
+    <string name="btnDone">DONE</string>
+
+    <string name="txtDrawer">Home</string>
+    <string name="txtSummary">Summary</string>
+    <string name="txtRenew">Renew</string>
+    <string name="txtQRCodeScanner">QR Code Scanner</string>
+    <string name="txtMessage">Message</string>
+    <string name="txtResetPassword">Reset Password</string>
+    <string name="txtManage">Management</string>
+
+    <string name="txtSearch">Search here...</string>
+    <string name="lblAdvancedSearch">Advanced Search</string>
+    <string name="txtMainTitle">Main Title...</string>
+    <string name="txtAuthor">Author...</string>
+    <string name="txtSubject">Subject...</string>
+    <string name="lblSearchScope">Search Scope</string>
+    <string name="btn_SearchMain">SEARCH</string>
+    <string name="btn_AdvancedSearch">ADVANCED SEARCH</string>
+
+    <string name="lbl_FirstManage">Staff Intranet</string>
+    <string name="lbl_FirstManage1">Are you a librarian at Asia Pacific University Library? </string>
+    <string name="lbl_FirstManage2">This page will only allow the staffs or librarians of Asia Pacific University Library to access. Other users will not allow to access to this page. Thank You.</string>
+    <string name="btn_access">ACCESS TO INTRANET</string>
+
+    <string name="lbl_adminlogin">LOGIN TO INTRANET</string>
+    <string name="lbl_newadmin">REGISTER NEW LIBRARY ADMIN</string>
+    <string name="btn_linktomain">BACK TO LIBRARY INTRANET</string>
+    <string name="btn_registeradmin">REGISTER NEW ADMIN</string>
+    <string name="lbl_searchAdmin">SEARCH SOMETHING HERE</string>
+    <string name="lbl_updateItemAdmin">Update Library Item</string>
+    <string name="lbl_updateItemAdmin2">Press and hold the item to update</string>
+
+    <string name="title_activity_drawer">LIBRARY CATALOGUE</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Management</string>
+    <string name="title_activity_summary">YOUR SUMMARY</string>
+    <string name="title_activity_renew">RENEW MATERIALS</string>
+    <string name="title_activity_qrcode_scanner">QR CODE SCANNER</string>
+    <string name="title_activity_message">YOUR MESSAGE</string>
+    <string name="title_activity_manage">STAFF INTRANET</string>
+    <string name="title_activity_stafflogin">INTRANET LOGIN</string>
+    <string name="title_activity_help">NEED HELP?</string>
+
+    <string name="title_activity_adminMain">APU LIBRARY MANAGEMENT</string>
+    <string name="title_activity_adminRegister">REGISTER NEW ADMIN</string>
+    <string name="title_activity_adminAddItem">ADD NEW ITEM</string>
+    <string name="title_activity_adminSearchItem">SEARCH CATALOGUE</string>
+    <string name="title_activity_adminUpdateItem">UPDATE CATALOGUE</string>
+    <string name="title_activity_adminRemoveItem">DELETE CATALOGUE</string>
+    <string name="lbl_adminIntranet">APU Library Catalogue Intranet</string>
+
+    <string name="lbl_additemadmin">NEW ITEM DETAILS</string>
+    <string name="lbl_additemadmin2">Fill Up the details of the item</string>
+    <string name="lbl_addtitleadmin">Title of the Item:</string>
+    <string name="lbl_addnameadmin">By (Name):</string>
+    <string name="lbl_addcontributeadmin">Contributor(s):</string>
+    <string name="lbl_addmaterialtypeadmin">Material Type:</string>
+    <string name="lbl_addpublisheradmin">Publisher(s):</string>
+    <string name="lbl_addeditionadmin">Edition:</string>
+    <string name="lbl_adddescriptionadmin">Description:</string>
+    <string name="lbl_addsubject">Subject(s):</string>
+    <string name="lbl_addcallnumber">Call Number:</string>
+    <string name="lbl_addcopynumber">Copy Number:</string>
+    <string name="btn_submititemadmin">SUBMIT</string>
+    <string name="btn_linktomainadmin"><b><u>Back to Main</u></b></string>
+
+    <string name="lbl_removeItemAdmin">Remove Library Item</string>
+    <string name="lbl_removeItemAdmin2">Press and hold the item to remove</string>
+
+    <string name="lbl_userSearch">Search Library Catalogue</string>
+    <string name="lbl_userSearch2">Input tilte / author / subject in the search bar</string>
+
+    <string name="lbl_userReservation">Books Reservation</string>
+    <string name="lbl_userReservation2">Press and hold to make reservation for your item</string>
+
+    <string name="lbl_Message">Library Notifications</string>
+    <string name="lbl_Message2">Your items are about to expire!</string>
+    <string name="lbl_Message3">Please Return or Renew your items before the deadline.</string>
+
+    <string name="lbl_helppage">NEED HELP?</string>
+    <string name="lbl_helppage2">Please email to: </string>
+    <string name="lbl_helppage3">email(developer)</string>
+    <string name="lbl_helppage4">What is this library application use for?</string>
+    <string name="lbl_helppage5">This Library application is for students or staffs of Asia Pacific University to search any materials or items from the APU library catalogue and to get the information of the item. The library user also able to make a reservation and renew their borrowed item by using this library application. </string>
+    <string name="lbl_helppage6">* If you facing any issues or problem when using this library application, please report to:  </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

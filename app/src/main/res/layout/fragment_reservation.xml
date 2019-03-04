@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_forgotpassword"
+    android:orientation="vertical"
+    tools:context="com.example.desmond.libraryapp.ReservationFragment">
+
+
+    <TextView
+        android:id="@+id/txtUserReservation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView19"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/lbl_userReservation"
+        android:textColor="@color/btn_AdvancedSearch"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtUserReservation2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:text="@string/lbl_userReservation2"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="15sp" />
+
+    <ListView
+        android:id="@+id/listViewBooksReservation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>

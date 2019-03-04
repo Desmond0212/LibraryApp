@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Title..."
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_List"
+        android:layout_marginLeft="20dp"
+        android:text="Description..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/contributor_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/name_List"
+        android:layout_below="@+id/name_List"
+        android:text="Description..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/material_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/contributor_List"
+        android:layout_below="@+id/contributor_List"
+        android:text="Description..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/publisher_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/material_List"
+        android:layout_below="@+id/material_List"
+        android:text="Description..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/edition_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/publisher_List"
+        android:layout_below="@+id/publisher_List"
+        android:text="Description..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/description_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edition_List"
+        android:layout_below="@+id/edition_List"
+        android:text="Description..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/subject_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/description_List"
+        android:layout_below="@+id/description_List"
+        android:text="Description..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/callnumber_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/subject_List"
+        android:layout_below="@+id/subject_List"
+        android:text="Description..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/copynumber_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/callnumber_List"
+        android:layout_below="@+id/callnumber_List"
+        android:text="copynumber..."
+        android:textSize="18sp" />
+
+</RelativeLayout>

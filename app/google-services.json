@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "34705320069",
+    "firebase_url": "https://libraryapp-62276.firebaseio.com",
+    "project_id": "libraryapp-62276",
+    "storage_bucket": "libraryapp-62276.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34705320069:android:c8d7a87baa1b98a5",
+        "android_client_info": {
+          "package_name": "com.example.desmond.libraryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34705320069-e5hgq18ftjgo65hapbr8eruu54cg9pa1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.desmond.libraryapp",
+            "certificate_hash": "aaea8c250c8a80e9ba49d952991556d9da5b15d3"
+          }
+        },
+        {
+          "client_id": "34705320069-8rkmt71p82hna2nfc6sut1dja20sncnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIlJQhsE6DnD5Olgt5v-yrHkzhcIWyMn4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34705320069-8rkmt71p82hna2nfc6sut1dja20sncnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
